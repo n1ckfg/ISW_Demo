@@ -5,7 +5,7 @@ var bg;
 
 function setup() {
 	var canvas = createCanvas(640, 480);
-	canvas.parent("canvas1");
+	canvas.parent("canvas1"); // Comment out this line in the p5.js web editor
 	canvas.drop(gotFile);
 	imageMode(CENTER);
 
