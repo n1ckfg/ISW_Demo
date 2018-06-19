@@ -15,8 +15,8 @@ function setup() {
 function draw() {
 	background(127);
 
-	if (player.img != null) player.run();
 	if (bg.img != null) bg.run();
+	if (player.img != null) player.run();
 }
 
 function keyPressed() {
